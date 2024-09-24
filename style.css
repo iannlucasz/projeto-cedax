@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: green;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+header > h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+ 
+nav {
+    background-color: greenyellow;
+    
+}
+
+nav > a {
+    margin-right: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+nav > a:houver {
+    text-decoration: white;
+}
+
+main > aside > h2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main > aside > p {
+    text-align: justify;
+
+
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    padding: 20px ;
+    margin: auto;
+    
+}
