@@ -1,54 +1,74 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: Freshman;
+    src: url(fontes/Freshman.ttf) format(truetype);
+}
+
+:root {
+    --cor0:#BF214B;
+    --cor1:#0A37BF;
+    --cor2:#F2D43D;
+    --cor3:#F2921D;
+    --cor4:#F2F2F2;
+
+    --fonte1:"Freshman" , sans-serif ;
+}
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
+body {
+    background-color: rgba(17, 238, 135, 0.955);
+}
+
 header {
-    background-color: green;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    background-color: var(--cor2);
+    padding-bottom: 8px;
+    padding-top: 25px;
+    text-align: center;
 
 }
 
 header > h1 {
-    color: white;
-    text-shadow: 1px 1px 2px black;
+    color: var(--cor4);
+    margin-top: 8px;
+    font-family: var(--fonte1);
+    text-shadow: 5px 5px 5px black;
+}
+
+header > p {
+    color: rgba(241, 239, 239, 0.964);
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+div#conteudo {
+    background: rgb(192, 188, 188);
+    box-sizing: content-box ;
+    border-radius: ;
+}
+
+div#conteudo > h2 {
     text-align: center;
-}
- 
-nav {
-    background-color: greenyellow;
-    
+    margin-top: 20px;
+    font-size: x-large;
 }
 
-nav > a {
-    margin-right: 20px;
-    padding-left: 10px;
-    text-decoration: none;
-}
-
-nav > a:houver {
-    text-decoration: white;
-}
-
-main > aside > h2 {
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-main > aside > p {
+div#conteudo > p {
     text-align: justify;
-
-
-}
-
-main {
-    background-color: white;
-    max-width: 1000px;
-    padding: 20px ;
     margin: auto;
-    
+    text-align: center;
+    font-size: 14pt;
+
 }
+
+div#conteudo > p#p1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
